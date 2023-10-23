@@ -1,0 +1,9 @@
+In this web scraping project, two websites were scraped using the BeautifulSoup library in Python. The first website is "books.toscrape.com" and the second website is Wikipedia.
+
+For the first website, the objective was to scrape book titles, prices, and the availability of books in stock. The data was extracted using BeautifulSoup and stored in a pandas dataframe for further analysis. The dataframe consists of columns for Book Titles, Price, and Instock Availability. The purpose of this analysis was to identify the most popular books based on their price.
+
+The second website, Wikipedia, was scraped to collect country data from a table. The specific table contained information about the population of various countries. Similar to the book scraping, BeautifulSoup was used to extract the data and create a pandas dataframe. The dataframe columns include Country, Population, % of World, Date, and United Nations. The objective was to perform an analysis on the dataset and find the top 10 biggest and smallest countries based on their population.
+
+Furthermore, the project involved scraping another Wikipedia page titled "List of largest companies by revenue". The table on this page provides information about the revenue, profit, number of employees, and headquarters of the largest companies. The data was extracted and organized into a pandas dataframe. The dataframe columns include Name, Industry, Revenue, Profit, Employees, Headquarters, and State-owned. The goal of this part of the project was to collect and analyze information regarding the largest companies by revenue.
+
+Overall, the project involved scraping data from multiple sources, including book details, country population, and information about large companies. The extracted data was transformed into pandas dataframes for further analysis and insights.
